@@ -30,7 +30,7 @@ if need_pytorch3d:
         !curl -LO https://github.com/NVIDIA/cub/archive/1.10.0.tar.gz
         !tar xzf 1.10.0.tar.gz
         os.environ["CUB_HOME"] = os.getcwd() + "/cub-1.10.0"
-        !pip install 'git+https://github.com/facebookresearch/pytorch3d.git@stable'
+        !pip install 'git+https://github.com/yosun/pytorch3d.git@stable'
         
 import os
 os.environ["PT_HPU_LAZY_MODE"] = "1"
